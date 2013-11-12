@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e2914a8-4c12-4315-adf8-50e36ec8e5eb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/floor-a.html" afterPath="$PROJECT_DIR$/public/floor-a.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/floor-b.html" afterPath="$PROJECT_DIR$/public/floor-b.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/floor-c.html" afterPath="$PROJECT_DIR$/public/floor-c.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/floors.html" afterPath="$PROJECT_DIR$/public/floors.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lunch-options.html" afterPath="$PROJECT_DIR$/public/lunch-options.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/map.html" afterPath="$PROJECT_DIR$/public/map.html" />
     </list>
     <ignored path="MadisonApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +41,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="102" selection-start="285" selection-end="285" vertical-scroll-proportion="0.1126408">
+            <state line="6" column="0" selection-start="183" selection-end="406" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="floors.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/floors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="-4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="floor-c.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/floor-c.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="-4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="floor-b.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/floor-b.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="-4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="floor-a.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/floor-a.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="-4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lunch-options.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lunch-options.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="-4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/map.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="0.13141426">
               <folding />
             </state>
           </provider>
@@ -65,13 +125,13 @@
         <option value="$PROJECT_DIR$/.ruby-version" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
-        <option value="$PROJECT_DIR$/public/floor-a.html" />
-        <option value="$PROJECT_DIR$/public/floor-b.html" />
-        <option value="$PROJECT_DIR$/public/floor-c.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/floors.html" />
+        <option value="$PROJECT_DIR$/public/floor-c.html" />
+        <option value="$PROJECT_DIR$/public/floor-b.html" />
+        <option value="$PROJECT_DIR$/public/floor-a.html" />
         <option value="$PROJECT_DIR$/public/lunch-options.html" />
         <option value="$PROJECT_DIR$/public/map.html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -400,51 +460,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/floor-a.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/floor-b.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/floor-c.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.125">
+        <state line="6" column="0" selection-start="183" selection-end="406" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/floors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.125">
+        <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/floor-c.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/floor-b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/floor-a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/lunch-options.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.125">
+        <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="182" selection-end="182" vertical-scroll-proportion="0.09386733">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="102" selection-start="285" selection-end="285" vertical-scroll-proportion="0.1126408">
+        <state line="7" column="120" selection-start="406" selection-end="406" vertical-scroll-proportion="0.13141426">
           <folding />
         </state>
       </provider>
