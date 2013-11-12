@@ -24,6 +24,8 @@ time,mark,audio,video{
     outline:0;
     font-size:100%;
     font:inherit;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
     vertical-align:baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -63,7 +65,52 @@ table{
     border-spacing:0;
 }
 
-/*------------------------------------*\
-    $MAIN
-\*------------------------------------*/
-/* GO! */
+/* */
+body { padding-top: 42px; }
+
+.topnav {
+    position: fixed;
+    width: 100%;
+    min-height: ;
+    top: 0;
+    margin-bottom: 50px;
+    padding: 12px 0;
+    color: #fff;
+    background-color: #0033CC;
+    border-bottom: solid 1px #122088;
+    font-size: 18px;
+    z-index: 1000;
+}
+
+.topnav a { color: #fff; }
+.topnav a.back { display: block; position: absolute; margin-left: 12px; }
+.topnav h1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+ol {
+
+}
+
+li {
+    padding: 15px;
+    color: #7f2020;
+    border-bottom: solid 1px #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #AF0404;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #AF0404;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #AF0404;
+}
