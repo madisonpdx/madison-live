@@ -66,7 +66,8 @@ table{
 }
 
 /* */
-body { padding-top: 42px; font-size: 14px; }
+html { height: 100%; }
+body { height: 100%; padding-top: 42px; font-size: 14px; }
 
 .topnav {
     position: fixed;
@@ -114,3 +115,5 @@ a:visited {
     text-decoration: none;
     color: #AF0404;
 }
+
+#map { width: 100%; height: 100%; background-color: #ccc; }
