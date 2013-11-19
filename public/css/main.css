@@ -72,7 +72,6 @@ body { height: 100%; padding-top: 42px; font-size: 14px; }
 .topnav {
     position: fixed;
     width: 100%;
-    min-height: ;
     top: 0;
     margin-bottom: 50px;
     padding: 12px 0;
