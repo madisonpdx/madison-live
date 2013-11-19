@@ -31,7 +31,7 @@
                 }
             }
 
-            xmlhttp.open('GET', '/schedule_details.html?date=Thu%20Nov%2028%202013', true);
+            xmlhttp.open('GET', '/schedule_details.html?date=' + (new Date()).toDateString(), true);
             xmlhttp.send();
         }
     </script>
