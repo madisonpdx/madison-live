@@ -26,6 +26,10 @@ get '/schedule_details.?:format?' do
       { :code => 'A', :periods => [ 'Period 1', 'Period 3', 'Period 5', 'Period 7' ] }.to_json
     elsif day_code == 'B'
       { :code => 'B', :periods => [ 'Period 2', 'Period 4', 'Period 6', 'Period 8' ] }.to_json
+    elsif day_code == 'F'
+      { :code => 'F', :description => 'Finals' }.to_json
+    elsif day_code == 'P'
+      { :code => 'P', :description => 'Planning' }.to_json
     elsif day_code == 'W'
       { :code => 'W', :description => 'Weekend' }.to_json
     elsif day_code == 'H'
@@ -36,6 +40,10 @@ get '/schedule_details.?:format?' do
       '<h1>A</h1><p>Period 1</p><p>Period 3</p><p>Period 5</p><p>Period 7</p>'
     elsif day_code == 'B'
       '<h1>B</h1><p>Period 2</p><p>Period 4</p><p>Period 6</p><p>Period 8</p>'
+    elsif day_code == 'F'
+      '<h1>F</h1><p>Finals</p>'
+    elsif day_code == 'W'
+      '<h1>P</h1><p>Planning</p>'
     elsif day_code == 'W'
       '<h1>W</h1><p>Weekend</p>'
     elsif day_code == 'H'
