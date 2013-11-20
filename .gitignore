@@ -1,3 +1,4 @@
+.DS_Store
 *.gem
 *.rbc
 /.config
@@ -20,4 +21,5 @@
 /lib/bundler/man/
 
 ## RubyMine project files.
-.idea/*
+/.idea/*
+
