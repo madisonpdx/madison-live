@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-MadisonLive::Application.load_tasks
+MadisonLiveNew::Application.load_tasks

@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-MadisonLive::Application.config.secret_key_base = '55120f1608da016ae1caf8e6600a7496527b0162844e7fc51e89725860adaabf3a8a2946b23e531efb405a6ac4f4eec85492250c328fe51ec575f0c2d0e75320'
+MadisonLiveNew::Application.config.secret_key_base = 'c1063bdafeb930f88a306646e3ba4b1a185b9641ca47b1768179a37d540ef6c5472f00fdffc48c9d65bd323f669c47d283987330ba51401264201cdb6bee6a5c'
