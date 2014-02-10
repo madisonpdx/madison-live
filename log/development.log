@@ -2585,3 +2585,31 @@ Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 14:37:5
 
 
 Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2014-02-04 14:37:52 -0800
+
+
+Started GET "/schedules/Mon%20Feb%2010%202014" for 127.0.0.1 at 2014-02-10 10:36:52 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SchedulesController#show as */*
+  Parameters: {"date"=>"Mon Feb 10 2014"}
+  [1m[35mSchedule Load (1.1ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."date" = '2014-02-10' LIMIT 1
+  [1m[36mScheduleSegment Load (1.9ms)[0m  [1mSELECT "schedule_segments".* FROM "schedule_segments" WHERE "schedule_segments"."schedule_id" = ?[0m  [["schedule_id", 163]]
+  Rendered schedules/show.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 91ms (Views: 64.9ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-10 10:36:52 -0800
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2014-02-10 10:36:52 -0800
+
+
+Started GET "/schedules/Mon%20Feb%2010%202014" for 127.0.0.1 at 2014-02-10 10:37:05 -0800
+Processing by SchedulesController#show as */*
+  Parameters: {"date"=>"Mon Feb 10 2014"}
+  [1m[35mSchedule Load (0.2ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."date" = '2014-02-10' LIMIT 1
+  [1m[36mScheduleSegment Load (0.3ms)[0m  [1mSELECT "schedule_segments".* FROM "schedule_segments" WHERE "schedule_segments"."schedule_id" = ?[0m  [["schedule_id", 163]]
+  Rendered schedules/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/schedules.css?body=1" for 127.0.0.1 at 2014-02-10 10:37:05 -0800
