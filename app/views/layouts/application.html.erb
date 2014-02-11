@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MadisonLive</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content = "width = device-width, initial-scale = 1, user-scalable = no" />
+  <title>Madison Live</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<div class="topnav">
+  <span class="left"><%= yield :navigation_left %></span>
+  <h1><%= yield(:navigation_title).empty? ? 'Madison Live' : yield(:navigation_title) %></h1>
+  <span class="right"><%= yield :navigation_right %></span>
+</div>
 
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
 
 <%= yield %>
 
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
 </body>
 </html>
+

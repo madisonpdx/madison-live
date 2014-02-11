@@ -11,3 +11,166 @@
  *= require_self
  *= require_tree .
  */
+
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+    v2.0b1 | 201101
+    NOTE:WORK IN PROGRESS
+    USE WITH CAUTION AND TEST WITH ABANDON */
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+body{
+    line-height:1;
+}
+ol,ul{
+    list-style:none;
+}
+blockquote,q{
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:'';
+    content:none;
+}
+/* remember to define visible focus styles!
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* */
+html { height: 100%; }
+body { height: 100%; padding-top: 58px; font-size: 14px; background-color: #F0F0F0; }
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.topnav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px 0;
+    color: #fff;
+    background-color: #1F2E4A;
+    -webkit-box-shadow: 0 3px 0 rgba(0,0,0,0.07);
+    -moz-box-shadow: 0 3px 0 rgba(0,0,0,0.07);
+    box-shadow: 0 3px 0 rgba(0,0,0,0.07);
+    z-index: 1000;
+}
+
+.topnav .left { display: block; position: absolute; margin-left: 20px; }
+.topnav .right { display: block; position: absolute; right: 0; margin-right: 20px; }
+
+.topnav a { color: #fff; font-size: 17px; }
+.topnav a:visited { color: #fff; font-size: 17px; }
+.topnav a:hover { color: #E8554F; font-size: 17px; }
+.topnav h1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+
+ul {
+    height: 100%;
+    background-color: #FFF;
+}
+
+li {
+    padding: 18px;
+    color: #E8554F;
+    background-color: #FFF;
+    border-bottom: solid 1px #F7F7F7;
+}
+
+a {
+    text-decoration: none;
+    color: #E8554F;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #E8554F;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #E8554F;
+}
+
+.scrollable { overflow-x: scroll; overflow-x: visible; }
+
+#map { width: 100%; height: 100%; background-color: #ccc; }
+
+#schedule_details { padding-top: 50px; text-align: center; }
+#schedule_details h1 { font-size: 180px; font-weight: bold; }
+#schedule_details p { margin-bottom: 10px; font-size: 22px; font-weight: normal; text-transform: uppercase; }
+
+label { display: block; margin-bottom: 6px; font-size: 12px; font-weight: 700; text-transform: uppercase; }
+input, textarea { outline: none; }
+input[type=text] {
+    width: 100%; margin-bottom: 20px; padding: 15px; background-color: #FFF; border: none;
+    font-size: 15px; font-family: 'Open Sans', sans-serif;
+}
+textarea {
+    width: 100%; min-height: 100px; margin-bottom: 20px; padding: 15px; background-color: #FFF; border: none;
+    font-size: 15px; font-family: 'Open Sans', sans-serif;
+}
+input[type=submit] {
+    margin: 0;
+    padding: 9px 20px 11px 20px;
+    color: #fff;
+    background-color: #E8554F;
+    font-size: 13px;
+    font-weight: 300;
+    border: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -4px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0 -4px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.15);
+    text-transform: uppercase;
+}
+

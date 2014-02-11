@@ -1,8 +1,22 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
 /*------------------------------------*\
     RESET
 \*------------------------------------*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-    v2.0b1 | 201101 
+/* http://meyerweb.com/eric/tools/css/reset/
+    v2.0b1 | 201101
     NOTE:WORK IN PROGRESS
     USE WITH CAUTION AND TEST WITH ABANDON */
 
@@ -24,8 +38,8 @@ time,mark,audio,video{
     outline:0;
     font-size:100%;
     font:inherit;
-    font-family: -apple-system-font, Helvetica, sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     vertical-align:baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -47,7 +61,7 @@ q:before,q:after{
     content:'';
     content:none;
 }
-/* remember to define visible focus styles! 
+/* remember to define visible focus styles!
 :focus{
     outline:?????;
 } */
@@ -67,22 +81,23 @@ table{
 
 /* */
 html { height: 100%; }
-body { height: 100%; padding-top: 42px; font-size: 14px; }
+body { height: 100%; padding-top: 58px; font-size: 14px; background-color: #F0F0F0; }
 
 .topnav {
     position: fixed;
     width: 100%;
     top: 0;
-    margin-bottom: 50px;
-    padding: 12px 0;
+    padding: 20px 0;
     color: #fff;
-    background-color: #0033CC;
-    border-bottom: solid 1px #122088;
+    background-color: #1F2E4A;
+    -webkit-box-shadow: 0 3px 0 rgba(0,0,0,0.07);
+    -moz-box-shadow: 0 3px 0 rgba(0,0,0,0.07);
+    box-shadow: 0 3px 0 rgba(0,0,0,0.07);
     z-index: 1000;
 }
 
 .topnav a { color: #fff; font-size: 17px; }
-.topnav a.back { display: block; position: absolute; margin-left: 12px; }
+.topnav a.back { display: block; position: absolute; margin-left: 20px; }
 .topnav h1 {
     float: left;
     width: 100%;
@@ -90,29 +105,31 @@ body { height: 100%; padding-top: 42px; font-size: 14px; }
     font-size: 17px;
 }
 
-ol {
-
+ul {
+    height: 100%;
+    background-color: #FFF;
 }
 
 li {
-    padding: 15px;
-    color: #7f2020;
-    border-bottom: solid 1px #ccc;
+    padding: 18px;
+    color: #E8554F;
+    background-color: #FFF;
+    border-bottom: solid 1px #F7F7F7;
 }
 
 a {
     text-decoration: none;
-    color: #AF0404;
+    color: #E8554F;
 }
 
 a:hover {
     text-decoration: none;
-    color: #AF0404;
+    color: #E8554F;
 }
 
 a:visited {
     text-decoration: none;
-    color: #AF0404;
+    color: #E8554F;
 }
 
 .scrollable { overflow-x: scroll; overflow-x: visible; }

@@ -7,4 +7,8 @@ MadisonLiveNew::Application.routes.draw do
   # Requests for schedules are directed to the schedules controller and can get html or json.
   get '/schedules(/:date)(.:format)' => 'schedules#show'
 
+  resources :courses do
+    resources :assignments
+  end
+
 end
